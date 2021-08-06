@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Image Slider</title>
+</head>
+<body>
+	<div class="slider">
+		<div class="slider__slides">
+			<div class="slider__slide active">
+				<img src="https://placeimg.com/640/480/tech" alt="any picture" class="slider__img">
+			</div>
+			<div class="slider__slide">
+				<img src="https://placeimg.com/640/480/animals" alt="any picture" class="slider__img">
+			</div>
+			<div class="slider__slide">
+				<img src="https://placeimg.com/640/480/nature" alt="any picture" class="slider__img">
+			</div>
+			<div class="slider__slide">
+				<img src="https://placeimg.com/640/480/any" alt="any picture" class="slider__img">
+			</div>
+		</div>
+		<div class="slider__btns">
+			<a href="#" class="material-icons btn__back">arrow_back_ios_new</a>
+			<a href="#" class="material-icons btn__next">arrow_forward_ios</a>
+		</div>
+	</div>
+	<h1>¿auto slide?</h1>
+	<button class="btn__auto" onclick="auto()"></button>
+	<script src="index.js"></script>
+</body>
+</html>
